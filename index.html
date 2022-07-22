@@ -578,15 +578,23 @@
           items: 3.5,
           controlsText:["&lt;","&gt;"],
           responsive: {
-                380: {
-                    gutter: 20,
-                    items: 1
-                },
+            300: {
+                items:1
+            },
 
-                1000: {
-                    items:3.5
-                }
-                }
+      640: {
+        edgePadding: 20,
+        gutter: 20,
+        items: 2
+      },
+      700: {
+        gutter: 30
+      },
+      900: {
+        items: 3.5
+      }
+    }
+
         });
         var slider = tns({             
             container: '.innerTwo',
